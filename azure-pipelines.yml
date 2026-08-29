@@ -8,7 +8,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: default
+  vmImage: 'VM1'
 
 variables:
   solution: 'WebApplication3.slnx'
